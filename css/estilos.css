@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{font-family: 'Patrick Hand', cursive;Ç}
+
+
+#libertad{
+    position: absolute;
+    top:200px; left:100px;
+    opacity: 50%;
+    border-radius:50%;
+    transition: 1s;
+}
+
+#libertad:hover{
+    transform: scale(1.5);
+}
+
+
+div{
+    width: 50%;
+    margin: 0 auto;
+    padding: 5px;
+    box-shadow: 5px 5px 10px orange;
+}
+
+nav{
+    width:100%;
+    margin: 0 auto;
+    padding: 10px;
+    top:0;
+    background: black;
+    color: white;
+    position:fixed;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+nav>ul>li{
+    padding:6px;
+    text-align: left;
+    float: left;
+    
+}
+
+.foto1{
+    width:30px;
+    border-radius:50%;
+}
+
+ul{
+    list-style: none;
+}
+
+.buscar{
+    float:right;
+}
+
+.cabeza{
+    width:100%;
+    margin-top: 70px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+
+.articu1{
+    background-color: orange;
+}
+
+.publicidad{
+    float:right;
+    width:38%;
+}
+
+.relato1{
+    width:60%;
+    float: left;
+
+}
+
+
+.sect2{
+    clear:both;
+    padding-top: 10px;
+}
+
+.articu2{
+    background-image: radial-gradient(circle at 25%,green 0%, rgba(255, 88, 0, 0.64) 40%);
+}
+
+@media only screen and (max-width: 700px) {
+    .relato1{
+        width:100%;
+        float:left;
+    }
+    .publicidad{
+        width:90%;
+        float:left;
+
+    }
+    .relato2{
+        width:100%;
+        float:left;
+    }
+    .buscar{
+        display: none;
+    }
+    img{
+        display: none;
+    }
+    nav{
+        width:100%;
+        text-align: center;
+    }
+}
